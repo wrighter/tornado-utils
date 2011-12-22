@@ -11,7 +11,6 @@ except ImportError:
 
 class djangolike_request_dict(dict):
     def getlist(self, key):
-        value = self.get(key)
         return self.get(key)
 
 class DatetimeParseError(Exception):
